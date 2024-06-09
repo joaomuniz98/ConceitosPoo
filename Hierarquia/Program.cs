@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+using Heranca;
+using Heranca.Classes;
+
+Veiculo veiculo = new Veiculo();
+
+veiculo.tipo = TipoVeiculo.Carro;
+
+veiculo.Criar("Civic", "vermelha", 200);
+veiculo.Show();
+
